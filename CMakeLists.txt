@@ -56,7 +56,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/CameraConfig.msg"
   "msg/CaptureSetting.msg"
   "msg/Image.msg"
-  "msg/SetCapture.msg"
+  "msg/SetConfig.msg"
   "srv/ConfigureCaptureSetting.srv")
 
 install (
