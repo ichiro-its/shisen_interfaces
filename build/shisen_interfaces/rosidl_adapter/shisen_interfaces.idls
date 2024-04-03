@@ -1,5 +1,0 @@
-/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/CameraConfig.idl
-/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/CaptureSetting.idl
-/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/Image.idl
-/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/SetCapture.idl
-/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:srv/ConfigureCaptureSetting.idl
