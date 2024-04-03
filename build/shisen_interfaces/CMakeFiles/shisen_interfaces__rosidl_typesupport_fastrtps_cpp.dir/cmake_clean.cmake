@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/camera_config__type_support.cpp.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/camera_config__type_support.cpp.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/capture_setting__type_support.cpp.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/capture_setting__type_support.cpp.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/image__type_support.cpp.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/image__type_support.cpp.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/set_capture__type_support.cpp.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/set_capture__type_support.cpp.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/srv/detail/dds_fastrtps/configure_capture_setting__type_support.cpp.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/srv/detail/dds_fastrtps/configure_capture_setting__type_support.cpp.o.d"
+  "libshisen_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libshisen_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/camera_config__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/capture_setting__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/camera_config__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/capture_setting__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/image__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/set_capture__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/set_capture__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/srv/detail/configure_capture_setting__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/shisen_interfaces/srv/detail/dds_fastrtps/configure_capture_setting__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

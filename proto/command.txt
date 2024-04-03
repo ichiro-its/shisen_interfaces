@@ -1,0 +1,7 @@
+protoc -I=/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/proto shisen.proto --js_out=import_style=commonjs:/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/proto
+
+protoc -I=/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/proto shisen.proto --grpc-web_out=import_style=commonjs,mode=grpcwebtext:/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/proto
+
+protoc -I ./proto --grpc_out=. --plugin=protoc-gen-grpc=`which grpc_cpp_plugin` ./proto/shisen.proto
+
+protoc -I ./proto --cpp_out=. ./proto/shisen.proto

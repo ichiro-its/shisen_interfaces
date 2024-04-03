@@ -1,0 +1,383 @@
+[0.014s] Invoking command in '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces -- -j16 -l16
+[0.061s] -- Found ament_cmake: 2.0.4 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.269s] -- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+[0.271s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.368s] -- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+[0.392s] -- Using protobuf 25.1.0
+[0.395s] -- Using gRPC 1.62.0
+[0.971s] -- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+[1.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.548s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.575s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.613s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.613s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.613s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.656s] -- Configuring done
+[1.743s] -- Generating done
+[1.747s] -- Build files have been written to: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces
+[1.786s] [35m[1mConsolidate compiler generated dependencies of target shisen_proto[0m
+[1.801s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.818s] [  2%] Built target ament_cmake_python_copy_shisen_interfaces
+[1.818s] [  6%] Built target shisen_proto
+[2.173s] running egg_info
+[2.174s] writing shisen_interfaces.egg-info/PKG-INFO
+[2.174s] writing dependency_links to shisen_interfaces.egg-info/dependency_links.txt
+[2.174s] writing top-level names to shisen_interfaces.egg-info/top_level.txt
+[2.178s] reading manifest file 'shisen_interfaces.egg-info/SOURCES.txt'
+[2.179s] writing manifest file 'shisen_interfaces.egg-info/SOURCES.txt'
+[2.223s] [  6%] Built target ament_cmake_python_build_shisen_interfaces_egg
+[2.309s] [  6%] Built target shisen_interfaces__rosidl_generator_type_description
+[2.329s] [  7%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.348s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.207s] [  8%] Built target shisen_interfaces__cpp
+[3.379s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_generator_c[0m
+[3.404s] [ 11%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/camera_config__functions.c.o[0m
+[3.405s] [ 11%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/camera_config__description.c.o[0m
+[3.405s] [ 12%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/camera_config__type_support.c.o[0m
+[3.406s] [ 14%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/capture_setting__description.c.o[0m
+[3.406s] [ 16%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/capture_setting__functions.c.o[0m
+[3.407s] [ 16%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/capture_setting__type_support.c.o[0m
+[3.409s] [ 19%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/image__type_support.c.o[0m
+[3.409s] [ 19%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/image__functions.c.o[0m
+[3.409s] [ 20%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/image__description.c.o[0m
+[3.410s] [ 21%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/set_capture__description.c.o[0m
+[3.411s] [ 23%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/srv/detail/configure_capture_setting__description.c.o[0m
+[3.411s] [ 24%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/set_capture__functions.c.o[0m
+[3.411s] [ 25%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/msg/detail/set_capture__type_support.c.o[0m
+[3.413s] [ 26%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/srv/detail/configure_capture_setting__functions.c.o[0m
+[3.413s] [ 28%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_c.dir/rosidl_generator_c/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c.o[0m
+[3.567s] [ 29%] [32m[1mLinking C shared library libshisen_interfaces__rosidl_generator_c.so[0m
+[3.646s] [ 29%] Built target shisen_interfaces__rosidl_generator_c
+[3.665s] [ 30%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.665s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.665s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.665s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.666s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.669s] [ 37%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.305s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_c[0m
+[4.319s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_cpp[0m
+[4.327s] [ 38%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/shisen_interfaces/msg/capture_setting__type_support.cpp.o[0m
+[4.329s] [ 39%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/shisen_interfaces/msg/camera_config__type_support.cpp.o[0m
+[4.330s] [ 41%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/shisen_interfaces/msg/set_capture__type_support.cpp.o[0m
+[4.330s] [ 42%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/shisen_interfaces/msg/image__type_support.cpp.o[0m
+[4.331s] [ 43%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/shisen_interfaces/srv/configure_capture_setting__type_support.cpp.o[0m
+[4.365s] [ 44%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shisen_interfaces/msg/capture_setting__type_support.cpp.o[0m
+[4.366s] [ 46%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shisen_interfaces/msg/image__type_support.cpp.o[0m
+[4.367s] [ 47%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shisen_interfaces/msg/set_capture__type_support.cpp.o[0m
+[4.368s] [ 48%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shisen_interfaces/srv/configure_capture_setting__type_support.cpp.o[0m
+[4.370s] [ 50%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shisen_interfaces/msg/camera_config__type_support.cpp.o[0m
+[4.481s] [ 51%] [32m[1mLinking CXX shared library libshisen_interfaces__rosidl_typesupport_c.so[0m
+[4.573s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_introspection_c[0m
+[4.610s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_fastrtps_c[0m
+[4.610s] [ 52%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/camera_config__type_support.c.o[0m
+[4.610s] [ 51%] Built target shisen_interfaces__rosidl_typesupport_c
+[4.610s] [ 53%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/capture_setting__type_support.c.o[0m
+[4.611s] [ 56%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/image__type_support.c.o[0m
+[4.611s] [ 56%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/set_capture__type_support.c.o[0m
+[4.612s] [ 57%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c.o[0m
+[4.692s] [ 58%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shisen_interfaces/msg/detail/camera_config__type_support_c.cpp.o[0m
+[4.709s] [ 60%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shisen_interfaces/msg/detail/capture_setting__type_support_c.cpp.o[0m
+[4.749s] [ 61%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shisen_interfaces/msg/detail/image__type_support_c.cpp.o[0m
+[4.760s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[4.795s] [ 62%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shisen_interfaces/msg/detail/set_capture__type_support_c.cpp.o[0m
+[4.814s] [ 64%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shisen_interfaces/srv/detail/configure_capture_setting__type_support_c.cpp.o[0m
+[4.826s] [ 65%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/set_capture__type_support.cpp.o[0m
+[4.829s] [ 66%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[4.829s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_introspection_cpp[0m
+[4.846s] [ 67%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/capture_setting__type_support.cpp.o[0m
+[4.882s] [ 70%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shisen_interfaces/msg/detail/camera_config__type_support.cpp.o[0m
+[4.884s] [ 70%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/msg/detail/dds_fastrtps/camera_config__type_support.cpp.o[0m
+[4.921s] [ 71%] [32m[1mLinking C shared library libshisen_interfaces__rosidl_typesupport_introspection_c.so[0m
+[5.041s] [ 71%] Built target shisen_interfaces__rosidl_typesupport_introspection_c
+[5.155s] [ 73%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shisen_interfaces/msg/detail/capture_setting__type_support.cpp.o[0m
+[5.658s] [ 74%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shisen_interfaces/srv/detail/dds_fastrtps/configure_capture_setting__type_support.cpp.o[0m
+[5.710s] [ 75%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shisen_interfaces/msg/detail/set_capture__type_support.cpp.o[0m
+[5.713s] [ 76%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shisen_interfaces/msg/detail/image__type_support.cpp.o[0m
+[5.987s] [ 78%] [32mBuilding CXX object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shisen_interfaces/srv/detail/configure_capture_setting__type_support.cpp.o[0m
+[6.256s] [ 79%] [32m[1mLinking CXX shared library libshisen_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.447s] [ 80%] [32m[1mLinking CXX shared library libshisen_interfaces__rosidl_typesupport_cpp.so[0m
+[6.516s] [ 80%] Built target shisen_interfaces__rosidl_typesupport_fastrtps_c
+[6.680s] [ 80%] Built target shisen_interfaces__rosidl_typesupport_cpp
+[7.454s] [ 82%] [32m[1mLinking CXX shared library libshisen_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[7.582s] [ 82%] Built target shisen_interfaces__rosidl_typesupport_introspection_cpp
+[7.607s] [ 83%] [32m[1mLinking CXX shared library libshisen_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.747s] [ 83%] Built target shisen_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.774s] [ 83%] Built target shisen_interfaces
+[7.810s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.155s] [ 84%] Built target shisen_interfaces__py
+[9.171s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_generator_py[0m
+[9.195s] [ 85%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/shisen_interfaces/msg/_camera_config_s.c.o[0m
+[9.196s] [ 87%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/shisen_interfaces/msg/_image_s.c.o[0m
+[9.197s] [ 88%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/shisen_interfaces/msg/_capture_setting_s.c.o[0m
+[9.197s] [ 89%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/shisen_interfaces/msg/_set_capture_s.c.o[0m
+[9.197s] [ 91%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_generator_py.dir/rosidl_generator_py/shisen_interfaces/srv/_configure_capture_setting_s.c.o[0m
+[9.438s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/shisen_interfaces/libshisen_interfaces__rosidl_generator_py.so[0m
+[9.507s] [ 92%] Built target shisen_interfaces__rosidl_generator_py
+[9.529s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_c__pyext[0m
+[9.529s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[9.530s] [35m[1mConsolidate compiler generated dependencies of target shisen_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[9.550s] [ 93%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/shisen_interfaces/_shisen_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[9.551s] [ 94%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/shisen_interfaces/_shisen_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.551s] [ 96%] [32mBuilding C object CMakeFiles/shisen_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/shisen_interfaces/_shisen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.786s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.800s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.804s] [100%] [32m[1mLinking C shared library rosidl_generator_py/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.871s] [100%] Built target shisen_interfaces__rosidl_typesupport_c__pyext
+[9.873s] [100%] Built target shisen_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.875s] [100%] Built target shisen_interfaces__rosidl_typesupport_introspection_c__pyext
+[9.892s] Invoked command in '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces -- -j16 -l16
+[10.155s] Invoking command in '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces
+[10.165s] -- Install configuration: ""
+[10.165s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/ament_index/resource_index/rosidl_interfaces/shisen_interfaces
+[10.166s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/CameraConfig.json
+[10.166s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/CaptureSetting.json
+[10.166s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/Image.json
+[10.167s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/SetCapture.json
+[10.167s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/srv/ConfigureCaptureSetting.json
+[10.167s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces
+[10.167s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv
+[10.167s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/configure_capture_setting.h
+[10.167s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail
+[10.168s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__functions.c
+[10.168s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__type_support.h
+[10.168s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__functions.h
+[10.168s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__description.c
+[10.169s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__struct.h
+[10.169s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c
+[10.169s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg
+[10.169s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/capture_setting.h
+[10.170s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/set_capture.h
+[10.170s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/image.h
+[10.170s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.170s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/camera_config.h
+[10.170s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail
+[10.170s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__functions.h
+[10.170s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__functions.h
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__functions.c
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__struct.h
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__type_support.c
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__struct.h
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__type_support.c
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__type_support.c
+[10.171s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__struct.h
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__functions.c
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__functions.h
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__functions.c
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__description.c
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__functions.h
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__struct.h
+[10.172s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__description.c
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__functions.c
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__type_support.h
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__type_support.h
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__description.c
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__type_support.c
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__type_support.h
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__description.c
+[10.173s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__type_support.h
+[10.174s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/library_path.sh
+[10.174s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/library_path.dsv
+[10.175s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_generator_c.so
+[10.175s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_generator_c.so" to ""
+[10.176s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces
+[10.176s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv
+[10.176s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail
+[10.176s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__rosidl_typesupport_fastrtps_c.h
+[10.177s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg
+[10.177s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.177s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail
+[10.177s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[10.177s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__rosidl_typesupport_fastrtps_c.h
+[10.177s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__rosidl_typesupport_fastrtps_c.h
+[10.177s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__rosidl_typesupport_fastrtps_c.h
+[10.178s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.179s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.179s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces
+[10.179s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv
+[10.179s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail
+[10.179s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__rosidl_typesupport_introspection_c.h
+[10.179s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c
+[10.180s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg
+[10.180s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.180s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail
+[10.180s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__rosidl_typesupport_introspection_c.h
+[10.180s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__type_support.c
+[10.181s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__rosidl_typesupport_introspection_c.h
+[10.181s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__type_support.c
+[10.181s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__type_support.c
+[10.181s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__rosidl_typesupport_introspection_c.h
+[10.182s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__rosidl_typesupport_introspection_c.h
+[10.182s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__type_support.c
+[10.183s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_introspection_c.so
+[10.184s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.185s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_c.so
+[10.186s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_c.so" to ""
+[10.186s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces
+[10.186s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv
+[10.186s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/configure_capture_setting.hpp
+[10.186s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail
+[10.186s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__struct.hpp
+[10.187s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__builder.hpp
+[10.187s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__traits.hpp
+[10.187s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg
+[10.188s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/image.hpp
+[10.188s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/camera_config.hpp
+[10.188s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/capture_setting.hpp
+[10.188s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/set_capture.hpp
+[10.189s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail
+[10.189s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__builder.hpp
+[10.189s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__traits.hpp
+[10.190s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__builder.hpp
+[10.190s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__traits.hpp
+[10.190s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__builder.hpp
+[10.190s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__builder.hpp
+[10.191s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__traits.hpp
+[10.191s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__struct.hpp
+[10.191s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__traits.hpp
+[10.192s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__struct.hpp
+[10.192s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__struct.hpp
+[10.192s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__struct.hpp
+[10.193s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces
+[10.193s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv
+[10.193s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail
+[10.193s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/dds_fastrtps
+[10.193s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__rosidl_typesupport_fastrtps_cpp.hpp
+[10.194s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg
+[10.194s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.194s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail
+[10.194s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/dds_fastrtps
+[10.194s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[10.195s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__rosidl_typesupport_fastrtps_cpp.hpp
+[10.195s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__rosidl_typesupport_fastrtps_cpp.hpp
+[10.195s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__rosidl_typesupport_fastrtps_cpp.hpp
+[10.197s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.198s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.198s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces
+[10.198s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv
+[10.198s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail
+[10.198s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__type_support.cpp
+[10.198s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/srv/detail/configure_capture_setting__rosidl_typesupport_introspection_cpp.hpp
+[10.198s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg
+[10.199s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail
+[10.199s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__rosidl_typesupport_introspection_cpp.hpp
+[10.199s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__type_support.cpp
+[10.199s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__type_support.cpp
+[10.199s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/camera_config__rosidl_typesupport_introspection_cpp.hpp
+[10.200s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[10.200s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__type_support.cpp
+[10.200s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/set_capture__rosidl_typesupport_introspection_cpp.hpp
+[10.200s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen_interfaces/msg/detail/capture_setting__type_support.cpp
+[10.202s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.203s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.204s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_cpp.so
+[10.205s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.205s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/pythonpath.sh
+[10.205s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/pythonpath.dsv
+[10.205s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces-0.2.0-py3.10.egg-info
+[10.205s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces-0.2.0-py3.10.egg-info/top_level.txt
+[10.206s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces-0.2.0-py3.10.egg-info/PKG-INFO
+[10.207s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces-0.2.0-py3.10.egg-info/dependency_links.txt
+[10.207s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces-0.2.0-py3.10.egg-info/SOURCES.txt
+[10.208s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces
+[10.208s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.209s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.209s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/_shisen_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.209s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/_shisen_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.210s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/_shisen_interfaces_s.ep.rosidl_typesupport_c.c
+[10.210s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/libshisen_interfaces__rosidl_generator_py.so
+[10.210s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv
+[10.210s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv/_configure_capture_setting.py
+[10.211s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv/_configure_capture_setting_s.c
+[10.211s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv/__init__.py
+[10.211s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/__init__.py
+[10.212s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg
+[10.212s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_capture_setting_s.c
+[10.213s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_camera_config_s.c
+[10.213s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_image_s.c
+[10.213s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_camera_config.py
+[10.213s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_image.py
+[10.214s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_set_capture_s.c
+[10.214s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_capture_setting.py
+[10.214s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/__init__.py
+[10.214s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_set_capture.py
+[10.215s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.281s] Listing '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces'...
+[10.281s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/__init__.py'...
+[10.281s] Listing '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg'...
+[10.281s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/__init__.py'...
+[10.282s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_camera_config.py'...
+[10.282s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_capture_setting.py'...
+[10.282s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_image.py'...
+[10.282s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/msg/_set_capture.py'...
+[10.282s] Listing '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv'...
+[10.282s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv/__init__.py'...
+[10.282s] Compiling '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/srv/_configure_capture_setting.py'...
+[10.288s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.289s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.289s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.290s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.290s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.290s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/python3.10/site-packages/shisen_interfaces/shisen_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.291s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_generator_py.so
+[10.292s] -- Set runtime path of "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_interfaces__rosidl_generator_py.so" to ""
+[10.292s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/CameraConfig.idl
+[10.293s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/CaptureSetting.idl
+[10.293s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/Image.idl
+[10.293s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/SetCapture.idl
+[10.293s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/srv/ConfigureCaptureSetting.idl
+[10.293s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/CameraConfig.msg
+[10.293s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/CaptureSetting.msg
+[10.294s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/Image.msg
+[10.294s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/msg/SetCapture.msg
+[10.294s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/srv/ConfigureCaptureSetting.srv
+[10.294s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/srv/ConfigureCaptureSetting_Request.msg
+[10.294s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/srv/ConfigureCaptureSetting_Response.msg
+[10.294s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen.grpc.pb.h
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen.grpc.pb.cc
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen.pb.cc
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/include/shisen_interfaces/shisen.pb.h
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/lib/libshisen_proto.so
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/ament_index/resource_index/package_run_dependencies/shisen_interfaces
+[10.295s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/ament_index/resource_index/parent_prefix_path/shisen_interfaces
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/ament_prefix_path.sh
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/ament_prefix_path.dsv
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/path.sh
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/environment/path.dsv
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/local_setup.bash
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/local_setup.sh
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/local_setup.zsh
+[10.296s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/local_setup.dsv
+[10.297s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/package.dsv
+[10.297s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/ament_index/resource_index/packages/shisen_interfaces
+[10.297s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_generator_cExport.cmake
+[10.297s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.297s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.297s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.297s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.298s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.298s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_cExport.cmake
+[10.298s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.298s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_generator_cppExport.cmake
+[10.298s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.298s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.299s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.299s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.299s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_cppExport.cmake
+[10.300s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.300s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_generator_pyExport.cmake
+[10.300s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/export_shisen_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.301s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_protoExport.cmake
+[10.301s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_protoExport-noconfig.cmake
+[10.301s] -- Installing: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.301s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.301s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.301s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.302s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.302s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.302s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.302s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfacesConfig.cmake
+[10.302s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/cmake/shisen_interfacesConfig-version.cmake
+[10.302s] -- Up-to-date: /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/install/shisen_interfaces/share/shisen_interfaces/package.xml
+[10.308s] Invoked command in '/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces

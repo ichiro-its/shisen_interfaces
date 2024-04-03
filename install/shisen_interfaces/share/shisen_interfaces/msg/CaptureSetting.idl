@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from shisen_interfaces/msg/CaptureSetting.msg
+// generated code does not contain a copyright notice
+
+
+module shisen_interfaces {
+  module msg {
+    struct CaptureSetting {
+      sequence<int32, 1> brightness;
+
+      sequence<int32, 1> contrast;
+
+      sequence<int32, 1> saturation;
+
+      sequence<int32, 1> temperature;
+
+      sequence<int32, 1> hue;
+
+      sequence<int32, 1> gain;
+    };
+  };
+};

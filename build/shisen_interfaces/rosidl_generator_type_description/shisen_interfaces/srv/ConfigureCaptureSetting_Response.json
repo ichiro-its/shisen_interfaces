@@ -1,0 +1,96 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "shisen_interfaces/srv/ConfigureCaptureSetting_Response",
+      "fields": [
+        {
+          "name": "capture_setting",
+          "type": {
+            "type_id": 97,
+            "capacity": 1,
+            "string_capacity": 0,
+            "nested_type_name": "shisen_interfaces/msg/CaptureSetting"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "shisen_interfaces/msg/CaptureSetting",
+        "fields": [
+          {
+            "name": "brightness",
+            "type": {
+              "type_id": 102,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "contrast",
+            "type": {
+              "type_id": 102,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "saturation",
+            "type": {
+              "type_id": 102,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "temperature",
+            "type": {
+              "type_id": 102,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "hue",
+            "type": {
+              "type_id": 102,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "gain",
+            "type": {
+              "type_id": 102,
+              "capacity": 1,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "shisen_interfaces/srv/ConfigureCaptureSetting_Response",
+      "hash_string": "RIHS01_4253886c2e1f213ae399ddedda307ec24fe28bafbfe8deac93530d77041d326c"
+    },
+    {
+      "type_name": "shisen_interfaces/msg/CaptureSetting",
+      "hash_string": "RIHS01_5766df13bd0f9cbc688847da504cb6f836003fbce103731f2fc717829f042267"
+    }
+  ]
+}

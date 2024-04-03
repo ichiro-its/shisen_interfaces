@@ -1,0 +1,66 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "shisen_interfaces/msg/Image",
+      "fields": [
+        {
+          "name": "cols",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "320"
+        },
+        {
+          "name": "rows",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "240"
+        },
+        {
+          "name": "channels",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "3"
+        },
+        {
+          "name": "quality",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": "-1"
+        },
+        {
+          "name": "data",
+          "type": {
+            "type_id": 160,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "shisen_interfaces/msg/Image",
+      "hash_string": "RIHS01_860caa35513d02a5fe6ea2ba09c44bc7847d8599a87daeac5760ae75ba166351"
+    }
+  ]
+}

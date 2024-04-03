@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/camera_config__type_support.c.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/camera_config__type_support.c.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/capture_setting__type_support.c.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/capture_setting__type_support.c.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/image__type_support.c.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/image__type_support.c.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/set_capture__type_support.c.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/set_capture__type_support.c.o.d"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c.o"
+  "CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c.o.d"
+  "libshisen_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libshisen_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/camera_config__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/camera_config__type_support.c"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/capture_setting__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/capture_setting__type_support.c"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/image__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/image__type_support.c"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/set_capture__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/msg/detail/set_capture__type_support.c"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/srv/detail/configure_capture_setting__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/shisen_interfaces/srv/detail/configure_capture_setting__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/shisen_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

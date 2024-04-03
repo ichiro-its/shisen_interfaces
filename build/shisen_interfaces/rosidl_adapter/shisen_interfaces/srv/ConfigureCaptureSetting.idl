@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from shisen_interfaces/srv/ConfigureCaptureSetting.srv
+// generated code does not contain a copyright notice
+
+#include "shisen_interfaces/msg/CaptureSetting.idl"
+
+module shisen_interfaces {
+  module srv {
+    struct ConfigureCaptureSetting_Request {
+      sequence<shisen_interfaces::msg::CaptureSetting, 1> capture_setting;
+    };
+    struct ConfigureCaptureSetting_Response {
+      sequence<shisen_interfaces::msg::CaptureSetting, 1> capture_setting;
+    };
+  };
+};

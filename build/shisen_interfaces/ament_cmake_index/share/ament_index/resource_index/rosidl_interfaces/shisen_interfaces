@@ -1,0 +1,12 @@
+msg/CameraConfig.idl
+msg/CameraConfig.msg
+msg/CaptureSetting.idl
+msg/CaptureSetting.msg
+msg/Image.idl
+msg/Image.msg
+msg/SetCapture.idl
+msg/SetCapture.msg
+srv/ConfigureCaptureSetting.idl
+srv/ConfigureCaptureSetting.srv
+srv/ConfigureCaptureSetting_Request.msg
+srv/ConfigureCaptureSetting_Response.msg

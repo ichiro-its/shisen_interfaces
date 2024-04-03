@@ -1,0 +1,12 @@
+setup.py
+shisen_interfaces/__init__.py
+shisen_interfaces.egg-info/PKG-INFO
+shisen_interfaces.egg-info/SOURCES.txt
+shisen_interfaces.egg-info/dependency_links.txt
+shisen_interfaces.egg-info/top_level.txt
+shisen_interfaces/msg/__init__.py
+shisen_interfaces/msg/_camera_config.py
+shisen_interfaces/msg/_capture_setting.py
+shisen_interfaces/msg/_image.py
+shisen_interfaces/srv/__init__.py
+shisen_interfaces/srv/_configure_capture_setting.py

@@ -1,0 +1,15 @@
+{
+  "package_name": "shisen_interfaces",
+  "output_dir": "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_generator_type_description/shisen_interfaces",
+  "idl_tuples": [
+    "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/CameraConfig.idl",
+    "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/CaptureSetting.idl",
+    "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/Image.idl",
+    "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:msg/SetCapture.idl",
+    "/home/mbsaloka/Desktop/Ichiro/shisen_app/shisen_interfaces/build/shisen_interfaces/rosidl_adapter/shisen_interfaces:srv/ConfigureCaptureSetting.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces"
+  ]
+}
