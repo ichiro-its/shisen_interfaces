@@ -25,18 +25,20 @@ message(STATUS "Using gRPC ${gRPC_VERSION}")
 
 file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/proto)
 add_custom_command(
-      OUTPUT "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.pb.cc"
-            "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.pb.h"
-            "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.grpc.pb.cc"
-            "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.grpc.pb.h"
-      COMMAND $<TARGET_FILE:protobuf::protoc>
-      ARGS --grpc_out "${CMAKE_CURRENT_BINARY_DIR}/proto"
-        --cpp_out "${CMAKE_CURRENT_BINARY_DIR}/proto"
-        -I ${CMAKE_CURRENT_SOURCE_DIR}/proto
-        --plugin=protoc-gen-grpc=$<TARGET_FILE:gRPC::grpc_cpp_plugin>
-        ${CMAKE_CURRENT_SOURCE_DIR}/proto/shisen.proto
-      DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/proto/shisen.proto)
-
+  OUTPUT
+    "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.pb.cc"
+    "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.pb.h"
+    "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.grpc.pb.cc"
+    "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.grpc.pb.h"
+  COMMAND $<TARGET_FILE:protobuf::protoc>
+  ARGS
+    --grpc_out "${CMAKE_CURRENT_BINARY_DIR}/proto"
+    --cpp_out "${CMAKE_CURRENT_BINARY_DIR}/proto"
+    -I ${CMAKE_CURRENT_SOURCE_DIR}/proto
+    --plugin=protoc-gen-grpc=$<TARGET_FILE:gRPC::grpc_cpp_plugin>
+    ${CMAKE_CURRENT_SOURCE_DIR}/proto/shisen.proto
+  DEPENDS ${CMAKE_CURRENT_SOURCE_DIR}/proto/shisen.proto
+)
 
 add_library(shisen_proto SHARED
   "${CMAKE_CURRENT_BINARY_DIR}/proto/shisen.pb.cc"
@@ -48,7 +50,7 @@ add_library(shisen_proto SHARED
 target_compile_options(shisen_proto PRIVATE -fPIC)
 target_compile_features(shisen_proto PUBLIC cxx_std_17)
 
-target_link_libraries(shisen_proto PUBLIC  
+target_link_libraries(shisen_proto PUBLIC
   protobuf::libprotobuf
 )
 
@@ -73,12 +75,12 @@ install (
   INCLUDES DESTINATION include
 )
 
-# if(BUILD_TESTING)
-#   find_package(ament_lint_auto REQUIRED)
-#   ament_lint_auto_find_test_dependencies()
-# endif()
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
-# ament_export_dependencies(rosidl_default_runtime)
+ament_export_dependencies(rosidl_default_runtime)
 
 ament_export_dependencies(rosidl_default_runtime protobuf gRPC)
 ament_export_targets(shisen_proto HAS_LIBRARY_TARGET)
