@@ -28,9 +28,9 @@ message CaptureSetting {
 }
 
 message Image {
-    int32 cols = 1;
-    int32 rows = 2;
-    int32 channels = 3;
-    int32 quality = 4;
+    int32 height = 1;
+    int32 width = 2;
+    string encoding = 3;
+    int32 step = 4;
     bytes data = 5;
 }
