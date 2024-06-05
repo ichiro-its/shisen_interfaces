@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+package shisen_interfaces.proto;
+
+service Config {
+    rpc GetCaptureSetting (Empty) returns (ConfigCapture) {}
+
+    rpc SaveCaptureSetting (ConfigCapture) returns (Empty) {}
+
+    rpc SetCaptureSetting (CaptureSetting) returns (Empty) {}
+
+    rpc GetImage (Empty) returns (Image) {}
+}
+
+message Empty {}
+
+message ConfigCapture {
+    string json_capture = 1;
+}
+
+message CaptureSetting {
+    int32 brightness = 1;
+    int32 contrast = 2;
+    int32 saturation = 3;
+    int32 temperature = 4;
+    int32 exposure = 5;
+    int32 gain = 6;
+}
+
+message Image {
+    bytes data = 1 ;
+}
