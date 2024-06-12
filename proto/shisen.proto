@@ -10,6 +10,8 @@ service Config {
     rpc SetCaptureSetting (CaptureSetting) returns (Empty) {}
 
     rpc GetImage (Empty) returns (Image) {}
+
+    rpc LoadConfig (Empty) returns (Empty) {}
 }
 
 message Empty {}
