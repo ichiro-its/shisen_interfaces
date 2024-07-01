@@ -13,14 +13,13 @@ service Config {
 
     rpc LoadConfig (Empty) returns (Empty) {}
 
-    rpc RecordImage (RecordStatus) returns (Empty) {}
+    rpc RecordImage (Empty) returns (Empty) {}
 }
 
 message Empty {}
 
 message ConfigCapture {
     string json_capture = 1;
-    int32 fps = 2;
 }
 
 message CaptureSetting {
@@ -30,13 +29,8 @@ message CaptureSetting {
     int32 temperature = 4;
     int32 exposure = 5;
     int32 gain = 6;
-    int32 fps = 7;
 }
 
 message Image {
     bytes data = 1 ;
-}
-
-message RecordStatus {
-    bool record = 1;
 }
