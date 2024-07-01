@@ -12,6 +12,8 @@ service Config {
     rpc GetImage (Empty) returns (Image) {}
 
     rpc LoadConfig (Empty) returns (Empty) {}
+
+    rpc RecordImage (RecordStatus) returns (Empty) {}
 }
 
 message Empty {}
@@ -33,4 +35,8 @@ message CaptureSetting {
 
 message Image {
     bytes data = 1 ;
+}
+
+message RecordStatus {
+    bool record = 1;
 }
