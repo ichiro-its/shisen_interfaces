@@ -12,6 +12,8 @@ service Config {
     rpc GetImage (Empty) returns (Image) {}
 
     rpc LoadConfig (Empty) returns (Empty) {}
+
+    rpc RecordImage (Empty) returns (Empty) {}
 }
 
 message Empty {}
